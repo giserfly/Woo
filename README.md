@@ -6,7 +6,7 @@
 
 * 先写了一个简单的正则引擎，然后基于这个正则引擎快速写出词法分析器，参考[轮子哥的博客](http://www.cppblog.com/vczh/)。
 * 语法分析部分就是经典的递归下降方法生成AST，codgen过程用虚函数，真的很简洁也利于理解，参考[llvm tutorial](http://llvm.org/docs/tutorial/index.html)。
-* 虚拟机部分关键是理解工作原理，可以参考知乎上相关答案。
+* 虚拟机部分关键是理解工作原理，可以参考知乎上[相关答案](https://www.zhihu.com/question/30576554)。
 
 # Supports
 * 语法
